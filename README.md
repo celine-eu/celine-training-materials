@@ -1,15 +1,8 @@
 # celine-training-materials
-Training Materials for the AI Assistant
+Training materials repository for `celine-ai-assistant`.
 
-## CLI
+This repository is intentionally content-first: it contains Markdown knowledge sources that are cloned and indexed by `celine-ai-assistant`.
 
-This repository includes a small CLI to notify `celine-ai-assistant` that new training materials have been committed.
+## Structure
 
-Example:
-
-```bash
-uv run celine-training-materials sync-ai-assistant \
-  --api http://api.celine.localhost \
-  --client-id celine-cli \
-  --client-secret '<secret>'
-```
+- `GreenLand/`: training material extracted from `greenland.tn.it`
